@@ -45,27 +45,35 @@ fails without the fix.
 
 ## Attribution: commit trailers yes, PR trailers no
 
-A commit made with an assistant's help records it as a trailer on the
-**commit message**, in the form
+A commit made with an assistant's help says so in a trailer on the
+**commit message**. Use whatever trailer the agent emits by default --
+Claude Code, for instance, ends a commit with
 
 ```
-Assisted-by: <AGENT> <MODEL>
+Co-Authored-By: Claude <noreply@anthropic.com>
 ```
 
--- e.g. `Assisted-by: Claude Opus 5`, or `Assisted-by: Codex GPT-5`. One
-line, last in the message, after any `Co-authored-by:` for real people.
-`Assisted-by:` rather than `Co-authored-by:` on purpose: co-authorship
-attributes the work to a second author, which GitHub then shows as a
-contributor, and that is not what happened. A human authored the commit
-and is answerable for it; the trailer says what helped.
+An agent with no default of its own uses the same form, naming itself and
+the model behind it, with an address:
+
+```
+Co-authored-by: <AGENT> <MODEL> <EMAIL>
+```
+
+-- e.g. `Co-authored-by: Codex GPT-5 <noreply@openai.com>`. One line, last
+in the message, after any `Co-authored-by:` for real people. The address
+is not decoration: GitHub only renders a trailer as co-authorship when it
+carries an `<email>`, so without one the credit stays plain text in the
+message body. Credit is the point -- these tools do real work here, and
+the history should say so.
 
 **Pull request descriptions carry no trailer at all** -- no
-`Assisted-by:`, no "Generated with", no tool badge. A PR body is
+`Co-authored-by:`, no "Generated with", no tool badge. A PR body is
 review material: it exists to tell a reviewer what changed and why, and
 what to check. Provenance already lives on every commit the PR contains,
 where it is attached to the specific change rather than repeated once
 per PR, so a trailer in the description is duplication in the one place
-that has no room for it. Assistants default to adding one; delete it.
+that has no room for it. Agents default to adding one; delete it.
 
 Neither form is a substitute for the message itself. A commit that
 explains a decision badly does not improve by naming the model that
