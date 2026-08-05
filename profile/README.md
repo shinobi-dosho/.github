@@ -1,7 +1,7 @@
 <h1 align="center">shinobi-dosho</h1>
 
 <p align="center">
-  <em>The ninja, and the ninja's tool bag.</em>
+  <em> Shinobi and their tools.</em>
 </p>
 
 <p align="center">
