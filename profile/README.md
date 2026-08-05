@@ -1,11 +1,11 @@
-<h1 align="center">shinobi-dosho</h1>
+<h1 align="center">Shinobi Dosho</h1>
 
 <p align="center">
   <em> Shinobi and their tools.</em>
 </p>
 
 <p align="center">
-  Stimela 3.0 — reproducible radio-astronomy pipelines, and the libraries they stand on.
+  Reproducible radio-astronomy pipelines, and the libraries they stand on.
 </p>
 
 ---
@@ -59,9 +59,9 @@ Python SDK.
 ## The stack
 
 | | | |
-|---|---|---|
-| **[stimela-ninja](https://github.com/shinobi-dosho/stimela-ninja)** | Stimela 3.0: the framework — cabs, steps, recipes, backends, the `ninja` CLI | [docs](https://stimela-ninja.readthedocs.io) · [pypi](https://pypi.org/project/stimela-ninja/) |
-| **[dosho](https://github.com/shinobi-dosho/dosho)** | The native cab library: ~100 tools ready to drop into a recipe — WSClean, CubiCal, QuartiCal, AOFlagger, Tricolour, CASA tasks, and more | [docs](https://dosho.readthedocs.io) · [pypi](https://pypi.org/project/dosho/) |
+| :--- |-----|---|
+| **[stimela&#8209;ninja](https://github.com/shinobi-dosho/stimela-ninja)** | Stimela 3.0: the framework — cabs, steps, recipes, backends, the `ninja` CLI | [docs](https://stimela-ninja.readthedocs.io)  [pypi](https://pypi.org/project/stimela-ninja/) |
+| **[dosho](https://github.com/shinobi-dosho/dosho)** | The native cab library: ~100 tools ready to drop into a recipe — WSClean, CubiCal, QuartiCal, AOFlagger, Tricolour, CASA tasks, and more | [docs](https://dosho.readthedocs.io)  [pypi](https://pypi.org/project/dosho/) |
 
 ## The libraries
 
@@ -70,9 +70,9 @@ steps.
 
 | | | |
 |---|---|---|
-| **[msutils](https://github.com/shinobi-dosho/msutils)** | Everyday Measurement Set operations: inspect, subset, average, manage columns and flags | [docs](https://msutils.readthedocs.io) · [pypi](https://pypi.org/project/msutils/) |
-| **[fitstoolz](https://github.com/shinobi-dosho/fitstoolz)** | FITS data with *named* axes — WCS read once, so celestial, spectral and Stokes axes work the same way in the API and on the CLI. Xarray and Zarr supported | [docs](https://fitstoolz.readthedocs.io) · [pypi](https://pypi.org/project/fitstoolz/) |
-| **[simms](https://github.com/shinobi-dosho/simms)** | Simulate interferometric arrays and the visibilities they would record, then simulate sky models into them | [docs](https://simms.readthedocs.io) · [pypi](https://pypi.org/project/simms/) |
+| **[msutils](https://github.com/shinobi-dosho/msutils)** | Everyday Measurement Set operations: inspect, subset, average, manage columns and flags | [docs](https://msutils.readthedocs.io)  [pypi](https://pypi.org/project/msutils/) |
+| **[fitstoolz](https://github.com/shinobi-dosho/fitstoolz)** | FITS data with *named* axes — WCS read once, so celestial, spectral and Stokes axes work the same way in the API and on the CLI. Xarray and Zarr supported | [docs](https://fitstoolz.readthedocs.io)  [pypi](https://pypi.org/project/fitstoolz/) |
+| **[simms](https://github.com/shinobi-dosho/simms)** | Simulate interferometric arrays and the visibilities they would record, then simulate sky models into them | [docs](https://simms.readthedocs.io)  [pypi](https://pypi.org/project/simms/) |
 
 ## Getting started
 
