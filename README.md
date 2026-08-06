@@ -1,4 +1,3 @@
-# .github
 
 Organisation-level defaults for [**shinobi-dosho**](https://github.com/shinobi-dosho).
 
