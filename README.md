@@ -1,9 +1,12 @@
+Organisation-level defaults for [**shinobi-dosho**](https://github.com/shinobi-dosho).
+
+## Academic attribution
+
 Please acknowledge this project and its contributors when using the work
 in research, and cite the associated publications and software release
 where applicable. This is a scholarly request, not an additional licence
 condition.
-
-Organisation-level defaults for [**shinobi-dosho**](https://github.com/shinobi-dosho).
+See each project's repository for its citation information.
 
 Nothing here is a project. GitHub reads this repository for two separate things:
 

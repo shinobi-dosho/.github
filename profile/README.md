@@ -1,10 +1,5 @@
 <h1 align="center">Shinobi Dosho</h1>
 
-Please acknowledge this project and its contributors when using the work
-in research, and cite the associated publications and software release
-where applicable. This is a scholarly request, not an additional licence
-condition.
-
 <p align="center">
   <em> Shinobi and their tools.</em>
 </p>
@@ -14,6 +9,14 @@ condition.
 </p>
 
 ---
+
+## Academic attribution
+
+Please acknowledge this project and its contributors when using the work
+in research, and cite the associated publications and software release
+where applicable. This is a scholarly request, not an additional licence
+condition.
+See each project's repository for its citation information.
 
 ## What this is
 
