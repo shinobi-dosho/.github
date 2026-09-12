@@ -88,6 +88,15 @@ docs still describe what the code now does.
 
 ## Licensing
 
-Repositories here are MIT, GPL-2.0 or GPL-3.0 — check the `LICENSE` in
-the one you are contributing to. By contributing you agree your
-contribution is licensed under that repository's terms.
+Repositories in this organisation use Apache-2.0. Check each repository's
+`LICENSE` and `NOTICE` for its terms and third-party attribution.
+
+By contributing, you agree that your contributions are licensed under the
+project's [Apache License 2.0](https://github.com/shinobi-dosho/.github/blob/main/LICENSE).
+
+You are responsible for ensuring that you have the right to submit your
+contribution under this licence, including any necessary employer or
+third-party permissions. Do not submit confidential, proprietary, or
+otherwise restricted material that you are not authorised to release.
+The project's open-source terms apply irrespective of contributors'
+employment or institutional affiliations. See [NOTICE](https://github.com/shinobi-dosho/.github/blob/main/NOTICE).

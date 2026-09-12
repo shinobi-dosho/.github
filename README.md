@@ -33,3 +33,7 @@ time.
 | [msutils](https://github.com/shinobi-dosho/msutils) | Everyday Measurement Set operations |
 | [fitstoolz](https://github.com/shinobi-dosho/fitstoolz) | FITS data with named axes |
 | [simms](https://github.com/shinobi-dosho/simms) | Interferometer and sky-model simulation |
+
+## License
+
+Apache License 2.0. See [LICENSE](LICENSE) and [NOTICE](NOTICE).

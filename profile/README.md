@@ -92,4 +92,5 @@ follow the repos for progress. `msutils`, `fitstoolz` and `simms` are usable
 today, on their own or inside a recipe.
 
 Issues and pull requests are welcome on any repository. Everything here is
-open source under MIT, GPL-2.0 or GPL-3.0 — see each repository for its terms.
+open source under Apache-2.0 — see each repository's `LICENSE` and `NOTICE`
+for its terms and attribution, including separately licensed third-party material.
