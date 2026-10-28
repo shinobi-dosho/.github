@@ -13,8 +13,7 @@ Nothing here is a project. GitHub reads this repository for two separate things:
 - [`profile/README.md`](profile/README.md) — the landing page rendered at
   [github.com/shinobi-dosho](https://github.com/shinobi-dosho). It is *only* that
   page; it has no effect on any other repository.
-- The files at the root — [`AGENTS.md`](AGENTS.md),
-  [`CONTRIBUTING.md`](CONTRIBUTING.md), [`SECURITY.md`](SECURITY.md),
+- The community files at the root — [`CONTRIBUTING.md`](CONTRIBUTING.md), [`SECURITY.md`](SECURITY.md),
   [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) — which GitHub falls back to for any
   repository in the organisation that does not carry its own copy.
 
@@ -35,7 +34,7 @@ time.
 
 | | |
 | --- | --- |
-| [stimela-ninja](https://github.com/shinobi-dosho/stimela-ninja) | Stimela 3.0 — the pipeline framework |
+| [stimela-ninja](https://github.com/shinobi-dosho/stimela-ninja) | Stimela Ninja — the pipeline framework |
 | [dosho](https://github.com/shinobi-dosho/dosho) | The native cab library |
 | [msutils](https://github.com/shinobi-dosho/msutils) | Everyday Measurement Set operations |
 | [fitstoolz](https://github.com/shinobi-dosho/fitstoolz) | FITS data with named axes |

@@ -16,15 +16,15 @@ Our core philosophy: **avoid unnecessary complexity like the plague**.
 
 Every project here has a scope it stays inside. `msutils` does everyday
 Measurement Set operations and does not calibrate or image;
-`stimela-ninja` runs recipes and does not reinvent control flow; `dosho`
+`stimela-ninja` runs recipes declared in Python; `dosho`
 describes tools declaratively and executes nothing at load time. A
 feature that would widen the scope is out of scope, however useful — the
 right home for it is usually a different project, sometimes a new one.
 
-Each repository's `AGENTS.md` carries the design rationale and the
-conventions review comments are drawn from. Read it before changing
-anything structural. The organisation-wide baseline is in
-[`AGENTS.md`](AGENTS.md).
+Each repository's `CONTRIBUTING.md` and maintained documentation describe its
+design and contribution conventions. Read them before changing anything
+structural. Reuse existing helpers for shared rules, keep changes focused, and
+check the surrounding code, tests and documentation before calling work done.
 
 ## Ways to contribute
 
@@ -79,9 +79,16 @@ and why, and what a reviewer should not assume held still.
 
 Keep a pull request to one coherent change. Its description is review
 material — say what changed, why, and what to check. If you used a coding
-assistant, the provenance belongs in a commit trailer and **not** in the
-PR description; see
-[*Attribution: commit trailers yes, PR trailers no*](AGENTS.md#attribution-commit-trailers-yes-pr-trailers-no).
+assistant, end the commit message with a plain-text trailer naming the assistant
+and model:
+
+```text
+Assisted-by: <LLM> <MODEL>
+```
+
+Use no email address or assistant `Co-authored-by:` trailer. Pull request
+descriptions carry no assistant trailer, badge or generated-by notice; they
+describe the change and its validation.
 
 Before opening a PR, run the tests and the linter, and check that the
 docs still describe what the code now does.

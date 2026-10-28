@@ -23,10 +23,9 @@ See each project's repository for its citation information.
 A pipeline stack for radio interferometry, built around one idea: **robust and
 flexible simplicity**.
 
-Recipes are plain Python. A step is a function call; a step's output is a Python
-value you wire into the next call. No YAML expression language, no alias
-propagation, no stacked config libraries — control flow is just Python, and it
-doesn't need reinventing.
+Recipes are declared in Python. A recipe connects step inputs and outputs
+through typed references, giving Shinobi a graph it can validate, preview and
+execute. Python builders select the steps and declare their connections.
 
 ```python
 from pydantic import BaseModel
@@ -68,7 +67,7 @@ Python SDK.
 
 | | | |
 | :--- |-----|---|
-| **[stimela&#8209;ninja](https://github.com/shinobi-dosho/stimela-ninja)** | Stimela 3.0: the framework — cabs, steps, recipes, backends, the `ninja` CLI | [docs](https://stimela-ninja.readthedocs.io)  [pypi](https://pypi.org/project/stimela-ninja/) |
+| **[stimela&#8209;ninja](https://github.com/shinobi-dosho/stimela-ninja)** | Stimela Ninja: the framework — cabs, steps, recipes, backends, the `ninja` CLI | [docs](https://stimela-ninja.readthedocs.io)  [pypi](https://pypi.org/project/stimela-ninja/) |
 | **[dosho](https://github.com/shinobi-dosho/dosho)** | The native cab library: ~100 tools ready to drop into a recipe — WSClean, CubiCal, QuartiCal, AOFlagger, Tricolour, CASA tasks, and more | [docs](https://dosho.readthedocs.io)  [pypi](https://pypi.org/project/dosho/) |
 
 ## The libraries
@@ -85,8 +84,7 @@ steps.
 ## Getting started
 
 ```bash
-pip install stimela-ninja     # the framework: `ninja` CLI + the `shinobi` package
-pip install dosho[run]        # the cab library, plus the framework to run it
+pip install "stimela-ninja>=0.2.0b1"  # includes Dosho and the `ninja` command
 ```
 
 > **Note** — the framework installs from **`stimela-ninja`** but imports as
